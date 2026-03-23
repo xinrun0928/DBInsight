@@ -1,0 +1,17 @@
+{
+  "name": "dbinsight",
+  "version": "1.0.0",
+  "description": "数据库学习手册",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "deploy": "VITEPRESS_DEPLOY=true vitepress build docs && sh deploy.sh"
+  },
+  "dependencies": {
+    "vitepress-plugin-comment-with-giscus": "^1.1.15"
+  },
+  "devDependencies": {
+    "vitepress": "^2.0.0-alpha.15"
+  }
+}
