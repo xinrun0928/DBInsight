@@ -1,7 +1,7 @@
 {
   "name": "dbinsight",
   "version": "1.0.0",
-  "description": "数据库学习手册",
+  "description": "数据库，不只是增删改查 — 从一条 SQL 的执行过程出发，搞懂索引、事务、锁的底层逻辑",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
