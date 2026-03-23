@@ -10,7 +10,7 @@ cd docs/.vitepress/dist
 rm -rf .git
 
 # 关键修改：创建 CNAME 文件并写入自定义域名
-echo "docs.zxinrun.cn" > CNAME
+echo "db.docs.zxinrun.cn" > CNAME
 
 # 初始化 git
 git init
